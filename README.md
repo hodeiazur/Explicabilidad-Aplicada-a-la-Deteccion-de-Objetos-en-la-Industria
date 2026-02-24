@@ -79,7 +79,7 @@ Se emplea el tracker **SORT** (Simple Online and Realtime Tracking) para mantene
 
 Se utilizan imagenes renderizadas sinteticamente (15 escenas), probablemente generadas con un motor de simulacion 3D. El dataset contiene 11 clases de objetos relacionados con un escenario de ensamblaje robotico:
 ```
-**ID	Clase**
+ID	Clase
 0	background
 1	table_top_skin
 2	battery_holder
