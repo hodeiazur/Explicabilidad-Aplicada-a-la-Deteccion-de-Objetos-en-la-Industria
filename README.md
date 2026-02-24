@@ -1,7 +1,7 @@
 # Explicabilidad Aplicada a la Detección de Objetos en la Industria
 Este repositorio contiene el codigo desarrollado como parte de un Trabajo de Fin de Master (TFM). El proyecto aborda el desarrollo, entrenamiento y evaluacion de modelos de deteccion de objetos y personas, junto con la aplicacion y comparacion sistematica de tecnicas de Inteligencia Artificial Explicable (XAI) en escenarios industriales.
 
-El objetivo principal es evaluar la calidad de las explicaciones que generan distintos metodos de explicabilidad cuando se aplican a modelos de deteccion de objetos, comparando tanto las arquitecturas de deteccion como las propias tecnicas XAI.
+El objetivo de este trabajo es analizar el impacto del uso de un nuevo detector de objetos en la calidad de las explicaciones generadas por las mismas capas de explicabilidad utilizadas en estudios previos, así como evaluar la existencia de métodos de explicabilidad que permitan reducir el tiempo computacional manteniendo la precisión de los modelos analizados.
 
 ## 📋 Tabla de contenidos
 - Descripción general
