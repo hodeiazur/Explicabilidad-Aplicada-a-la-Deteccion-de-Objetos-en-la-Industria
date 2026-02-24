@@ -45,7 +45,7 @@ Sobre cada combinacion de escenario y modelo se aplican cinco tecnicas de explic
 │   └── yolo/
 │       ├── entrenar_yolo.py                 # Entrenamiento YOLOv8
 │       ├── obtener_best_yolo.py             # Seleccion del mejor checkpoint
-│       ├── human.yaml                       # Configuracion del dataset (1 clase)
+│       ├── human.yaml                     # Configuracion del dataset (1 clase)
 │       ├── best.pt                          # Pesos del mejor modelo
 │       └── metricas/                        # Modulos de explicabilidad (YOLO)
 │
@@ -59,9 +59,9 @@ Sobre cada combinacion de escenario y modelo se aplican cinco tecnicas de explic
 │       ├── yolo-sinteticos.py               # Entrenamiento con grid search
 │       ├── yolo-val.py                      # Validacion
 │       ├── editar_datos.py                  # Preprocesado de datos
-│       ├── dataset.yaml                     # Configuracion del dataset (11 clases)
-│       ├── best.pt                          # Pesos del mejor modelo
-│       └── metricas/                        # Modulos de explicabilidad (YOLO)
+│       ├── dataset.yaml                   # Configuracion del dataset (11 clases)
+│       ├── best.pt                      # Pesos del mejor modelo
+│       └── metricas/                        # Modulos de explicabilidad
 │
 ├── LICENSE                                  # AGPL-3.0
 └── README.md
