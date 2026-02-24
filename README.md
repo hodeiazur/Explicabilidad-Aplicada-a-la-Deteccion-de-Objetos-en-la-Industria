@@ -174,7 +174,7 @@ cd Explicabilidad-Aplicada-a-la-Detecci-n-de-Objetos-en-la-Industria
   **Nota**: el repositorio utiliza Git LFS para almacenar imagenes, videos y pesos de modelos. Asegurate de tener Git LFS instalado antes de clonar.
 
 2. Crear un entorno virtual e instalar las dependencias:
-3.
+
 ```
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
