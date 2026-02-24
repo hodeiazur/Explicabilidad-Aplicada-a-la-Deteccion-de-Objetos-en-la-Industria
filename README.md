@@ -100,8 +100,8 @@ ID	Clase
 - **Variante objetos industriales**: pesos preentrenados en ImageNet (fine-tuning completo). 10 epocas, SGD (lr=0.005, momentum=0.9), StepLR.
 - **Aumento de datos**: ColorJitter, MotionBlur, GaussianBlur, PixelDropout (humanos); HorizontalFlip, RandomBrightnessContrast, ShiftScaleRotate, Blur, RandomGamma (objetos industriales, via albumentations).
 - **Descargar los modelos**:
-   - detección humano:
-   - detección objetos industriales:
+   - detección humano: https://drive.google.com/file/d/1UtmQOsVdYUflc7NE8Pfg6KP5zJmhdXzM/view?usp=sharing
+   - detección objetos industriales: https://drive.google.com/file/d/1ul2Z_d70KQu_dYim55c9LW0qAoSqIiwN/view?usp=sharing
 
 ### 🚀 YOLO
 - **Modelo base**: YOLOv8s preentrenado (Ultralytics).
