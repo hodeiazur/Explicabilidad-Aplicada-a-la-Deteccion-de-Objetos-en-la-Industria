@@ -224,7 +224,9 @@ python deteccion_de_humanos_en_video/Faster/METRICAS/DCLOSE_main.py
 
 ## 📚 Bibliografia
 [1] Buś, S., Kaniuka, J., Świtlik, D., Główka, J., & Kozik, R. (2024). RoHuCAD: Robots and Humans Collaborative Anomaly Detection (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14142968
+
 [2] Caon, D. (2025). ULTIMATE WORKSHOP UC SYNTHETIC DATASET V1 (ROS 2 - HUMBLE) (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17235460
+
 [3] Caon, D. (2025). ULTIMATE INDUSTRY UC SYNTHETIC DATASET V1 (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17227211
 
 ## 📜 Licencia
