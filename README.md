@@ -31,8 +31,8 @@ Sobre cada combinación de escenario y modelo se aplican cinco técnicas de expl
 │   │   ├── deteccion_humano_sort_*.py       # Inferencia con/sin tracker SORT
 │   │   ├── sort.py                          # Tracker SORT
 │   │   ├── ground_truth_sinMujerAtras.json  # Anotaciones ground truth (COCO)
-│   │   ├── cam_ta1_ws2/                     # Frames de cámara real
-│   │   ├── videos/                          # Secuencias de video por acción
+│   │   ├── cam_ta1_ws2/                     # Frames de cámara real [1]
+│   │   ├── videos/                          # Secuencias de video por acción [2]
 │   │   └── METRICAS/                        # Módulos de explicabilidad
 │   │       ├── base.py                      # Generacion de mascaras
 │   │       ├── rise.py                      # RISE
@@ -54,7 +54,7 @@ Sobre cada combinación de escenario y modelo se aplican cinco técnicas de expl
 │   │   ├── fasterRCNN.py                    # Entrenamiento Faster R-CNN
 │   │   ├── validacion_faster.py             # Validación del modelo
 │   │   ├── metricas/                        # Módulos de explicabilidad
-│   │   └── _out_sdrec_01/ ... _out_sdrec_15/  # Datos sintéticos (15 carpetas)
+│   │   └── _out_sdrec_01/ ... _out_sdrec_15/  # Datos sintéticos (15 carpetas) [3]
 │   └── yolo/
 │       ├── yolo-sinteticos.py               # Entrenamiento con grid search
 │       ├── yolo-val.py                      # Validación
@@ -221,6 +221,11 @@ python deteccion_de_humanos_en_video/Faster/METRICAS/LIME_main.py
 python deteccion_de_humanos_en_video/Faster/METRICAS/DCLOSE_main.py
 ```  
   **Nota**: algunos scripts contienen rutas absolutas a datasets que deberán adaptarse a tu entorno local.
+
+## 📚 Bibliografia
+[1] Buś, S., Kaniuka, J., Świtlik, D., Główka, J., & Kozik, R. (2024). RoHuCAD: Robots and Humans Collaborative Anomaly Detection (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14142968
+[2] Caon, D. (2025). ULTIMATE WORKSHOP UC SYNTHETIC DATASET V1 (ROS 2 - HUMBLE) (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17235460
+[3] Caon, D. (2025). ULTIMATE INDUSTRY UC SYNTHETIC DATASET V1 (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17227211
 
 ## 📜 Licencia
 Este proyecto se distribuye bajo la licencia GNU Affero General Public License v3.0 (AGPL-3.0). Consulta el archivo LICENSE para más detalles.
