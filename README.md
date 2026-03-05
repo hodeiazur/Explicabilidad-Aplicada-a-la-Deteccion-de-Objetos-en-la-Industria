@@ -45,6 +45,7 @@ Sobre cada combinación de escenario y modelo se aplican cinco técnicas de expl
 │   └── yolo/
 │       ├── entrenar_yolo.py                 # Entrenamiento YOLOv8
 │       ├── obtener_best_yolo.py             # Selección del mejor checkpoint
+│       ├── deteccion_humano_sort_*.py       # Inferencia con/sin tracker SORT
 │       ├── human.yaml                       # Configuración del dataset (1 clase)
 │       ├── best.pt                          # Pesos del mejor modelo
 │       └── metricas/                        # Módulos de explicabilidad (YOLO)
@@ -205,7 +206,7 @@ python deteccion_de_humanos_en_video/yolo/entrenar_yolo.py
 ```
 python deteccion_de_objetos_en_imagenes/yolo/yolo-sinteticos.py
 ```
-### 🔍 Inferéncia con tracking
+### 🔍 Inferéncia con tracking (ejemplo)
 ```
 python deteccion_de_humanos_en_video/Faster/deteccion_humano_sort_labelHuman_conReal.py
 ```
